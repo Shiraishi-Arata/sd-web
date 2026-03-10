@@ -74,7 +74,7 @@ pkg update && pkg upgrade
 pkg install nodejs git
 
 # 2. Clone the project
-git clone https://github.com/yourusername/sd-web.git ~/sd-web
+git clone https://github.com/Shiraishi-Arata/sd-web.git ~/sd-web
 cd ~/sd-web
 
 # 3. Install dependencies
@@ -105,7 +105,7 @@ curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install -y nodejs git
 
 # 2. Clone the project
-git clone https://github.com/yourusername/sd-web.git ~/sd-web
+git clone https://github.com/Shiraishi-Arata/sd-web.git ~/sd-web
 cd ~/sd-web
 
 # 3. Install dependencies
@@ -126,7 +126,7 @@ node server.js
 sudo pacman -S nodejs npm git
 
 # 2. Clone and install
-git clone https://github.com/yourusername/sd-web.git ~/sd-web
+git clone https://github.com/Shiraishi-Arata/sd-web.git ~/sd-web
 cd ~/sd-web
 npm install
 
@@ -145,7 +145,7 @@ node server.js
 sudo dnf install nodejs git
 
 # 2. Clone and install
-git clone https://github.com/yourusername/sd-web.git ~/sd-web
+git clone https://github.com/Shiraishi-Arata/sd-web.git ~/sd-web
 cd ~/sd-web
 npm install
 
@@ -187,7 +187,7 @@ winget install OpenJS.NodeJS.LTS
 # Restart your terminal after install, then:
 
 # 2. Clone the project
-git clone https://github.com/yourusername/sd-web.git %USERPROFILE%\sd-web
+git clone https://github.com/Shiraishi-Arata/sd-web.git %USERPROFILE%\sd-web
 cd %USERPROFILE%\sd-web
 
 # 3. Install dependencies
@@ -208,7 +208,7 @@ node server.js
 2. Open **Command Prompt** or **PowerShell** and continue:
 
 ```powershell
-git clone https://github.com/yourusername/sd-web.git %USERPROFILE%\sd-web
+git clone https://github.com/Shiraishi-Arata/sd-web.git %USERPROFILE%\sd-web
 cd %USERPROFILE%\sd-web
 npm install
 notepad settings.json
@@ -241,11 +241,11 @@ Edit **`settings.json`** — restart the server after saving.
   },
 
   "defaults": {
-    "model":      "dreamshaper-8.safetensors",
-    "vae":        "vae-ft-mse.safetensors",
+    "model":      "waiIllustriousSDXL_v160.safetensors",
+    "vae":        "fixFP16ErrorsSDXLLowerMemoryUse_v10.safetensors",
     "lora":       "",
     "prompt":     "",
-    "neg_prompt": "lowres, bad anatomy, bad hands...",
+    "neg_prompt": "worst quality, bad quality, low quality, lowres, anatomical nonsense, artistic error, bad anatomy, interlocked fingers, extra fingers, text, artist name, signature, bad feet, extra toes, ugly, poorly drawn, censor, blurry, watermark, simple background, transparent background, old, oldest, glitch, deformed, mutated, disfigured, long body, bad hands, missing fingers, extra digit, fewer digits, cropped, very displeasing, sketch, jpeg artifacts, username, censored, bar_censor, mosaic_censor, conjoined, bad ai-generated, long neck, skin blemishes, skin spots, acne, the wrong limb, error, black line, excess hands",
     "sd_mode":    "img_gen",
     "steps":      20,
     "cfg_scale":  7,
@@ -254,7 +254,7 @@ Edit **`settings.json`** — restart the server after saving.
     "seed":       -1,
     "sampler":    "euler_a",
     "scheduler":  "karras",
-    "clip_skip":  1,
+    "clip_skip":  -1,
     "batch":      1
   }
 }
