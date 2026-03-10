@@ -1070,7 +1070,7 @@ function applyTheme(mode) {
   const isLight = mode === 'light';
   document.documentElement.classList.toggle('light', isLight);
   const icon = document.getElementById('themeIcon');
-  if (icon) icon.src = isLight ? '/icons/icon_white.svg' : '/icons/icon_dark.svg';
+  if (icon) icon.src = isLight ? '/icons/icon_light.svg' : '/icons/icon_dark.svg';
   try { localStorage.setItem('sd_theme', mode); } catch(e) {}
 }
 function toggleTheme() {
