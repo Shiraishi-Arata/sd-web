@@ -1,0 +1,30 @@
+{
+  "_comment": "SD.cpp Web UI \u2014 edit this file to configure paths and defaults. Restart server after saving.",
+  "language": "en",
+  "directories": {
+    "_comment": "Full paths to your model folders and output directory",
+    "checkpoints": "/path/to/models/checkpoints",
+    "loras": "/path/to/models/loras",
+    "vaes": "/path/to/models/vaes",
+    "output": "/path/to/output",
+    "binary": "sd-cli"
+  },
+  "defaults": {
+    "_comment": "Filename only (no path) for model/vae/lora. Empty string means no default.",
+    "model": "waiIllustriousSDXL_v160.safetensors",
+    "vae": "fixFP16ErrorsSDXLLowerMemoryUse_v10.safetensors",
+    "lora": "",
+    "prompt": "",
+    "neg_prompt": "worst quality, bad quality, low quality, lowres, anatomical nonsense, artistic error, bad anatomy, interlocked fingers, extra fingers, text, artist name, signature, bad feet, extra toes, ugly, poorly drawn, censor, blurry, watermark, simple background, transparent background, old, oldest, glitch, deformed, mutated, disfigured, long body, bad hands, missing fingers, extra digit, fewer digits, cropped, very displeasing, sketch, jpeg artifacts, username, censored, bar_censor, mosaic_censor, conjoined, bad ai-generated, long neck, skin blemishes, skin spots, acne, the wrong limb, error, black line, excess hands",
+    "sd_mode": "img_gen",
+    "steps": 20,
+    "cfg_scale": 7,
+    "width": 1024,
+    "height": 1024,
+    "seed": -1,
+    "sampler": "euler_a",
+    "scheduler": "karras",
+    "clip_skip": -1,
+    "batch": 1
+  }
+}
