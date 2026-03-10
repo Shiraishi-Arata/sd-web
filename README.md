@@ -11,8 +11,8 @@ A lightweight, single-file local web interface for [stable-diffusion.cpp](https:
 
 ## Screenshots
 
-![Dark mode](screenshots/dark.png)
-![Light mode](screenshots/light.png)
+![Dark mode](screenshots/dark_mode.png)
+![Light mode](screenshots/light_mode.png)
 
 ---
 
