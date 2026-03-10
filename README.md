@@ -47,7 +47,7 @@ sd-web/
 │   └── ja.json        # 日本語
 └── screenshots/
     ├──dark_mode.png     # Dark mode screenshot 
-    └──white_mode.png    # White mode screenshot 
+    └──light_mode.png    # Light mode screenshot 
 ```
 
 ---
